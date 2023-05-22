@@ -1,8 +1,8 @@
 //
-//  File.swift
+//  Extension.swift
 //  
 //
-//  Created by Влад Третьяк on 17.05.2023.
+//  Created by Vlad Tretyakov on 17.05.2023.
 //
 
 import CoreData
