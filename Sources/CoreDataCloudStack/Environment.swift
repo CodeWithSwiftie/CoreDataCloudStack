@@ -23,7 +23,7 @@ public struct PersistenceManagerInjectedValues {
     }
 }
 
-
+// Depedency injection wrapper
 @propertyWrapper
 public struct CoreDataInjected<T> {
     private let keyPath: KeyPath<PersistenceManagerInjectedValues, T>
