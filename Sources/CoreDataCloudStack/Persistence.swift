@@ -9,6 +9,7 @@ import CoreData
 import CloudKit
 import Foundation
 
+// Protocol
 protocol Perisistentable {
     associatedtype CloudSyncMode
     associatedtype PersistentStoreType
