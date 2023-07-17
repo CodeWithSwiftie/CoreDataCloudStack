@@ -49,6 +49,7 @@ open class PersistenceManager: Perisistentable {
         return container
     }
     
+    // Add lazy comment
     lazy var backgroundContext: NSManagedObjectContext = {
         persistentContainer.newBackgroundContext()
     }()
